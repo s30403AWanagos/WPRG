@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L5Z4</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+        }
+        .header {
+            background-color: lightgray;
+            display: flex;
+            padding: 30px;
+        }
+        .header ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+        }
+        .header ul li {
+            margin: auto;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .main {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+        }
+        h2 {
+            display: flex;
+            width: 25%;
+            margin: 20px;
+        }
+        .features-list {
+            display: flex;
+            width: auto;
+            margin: 20px;
+            gap: 10px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .feature {
+            border: 1px solid gray;
+            width: 40%;
+            padding: 10px 10px 10px 20px;
+        }
+        .feature h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .feature p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .feature3 {
+            border: 1px solid gray;
+            width: 100%;
+            padding: 20px 10px ;
+        }
+        el {
+            width: 25%;
+            margin: 20px;
+            padding: 0 10px;
+            border: 1px solid gray;
+        }
+        h4 {
+            margin-bottom: -15px;
+        }
+        .footer {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <ul class="nav-list">
+            <li><a href="#">Strona główna</a></li>
+            <li><a href="#">O nas</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </header>
+    <main class="main">
+        <h2>Witaj na naszej skomplikowanej stronie!</h2>
+        <div class="features-list">
+            <div class="feature">
+                <h3>Funkcja 1</h3>
+                <p>Opis funkcji 1...</p>
+            </div>
+            <div class="feature">
+                <h3>Funkcja 2</h3>
+                <p>Opis funkcji 2...</p>
+            </div>
+            <div class="feature3">
+                <h3>Funkcja 3</h3>
+                <p>Opis funkcji 3...</p>
+            </div>
+        </div>
+        <el>
+            <h3>Dodatkowe informacje</h3>
+            <p>...</p>
+        </el>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2023 Skomplikowana strona z flexboxem. Wszelkie prawa zastrzeżone</p>
+    </footer>
+</div>
+</body>
+</html>

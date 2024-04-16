@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L5Z3</title>
+    <style>
+        .row {
+            display: flex;
+        }
+        .row > .equal-width {
+            text-align: center;
+            background-color: lightblue;
+            flex-grow: 1;
+            margin: 10px;
+            width: auto;
+            line-height: 100px;
+        }
+        .row2 {
+            display: flex;
+        }
+        .row2 > .fixed-percentage {
+            text-align: center;
+            background-color: lightblue;
+            flex-grow: 1;
+            margin: 10px;
+            line-height: 100px;
+            width:40%;
+        }
+        .row2 > .flexible {
+            text-align: center;
+            background-color: lightblue;
+            flex-grow: 1;
+            margin: 10px;
+            line-height: 100px;
+            flex-grow: 3;
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    <el class="equal-width">Element 1</el>
+    <el class="equal-width">Element 2</el>
+    <el class="equal-width">Element 3</el>
+</div>
+<div class="row2">
+    <el class="flexible">Element 4</el>
+    <el class="fixed-percentage">Element 5</el>
+</div>
+</body>
+</html>
